@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="count app"
+        android:textSize="45sp"
+        android:background="@color/colorPrimary"
+        android:layout_weight="10"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#741852"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="80sp"
+        android:layout_weight="80"
+        />
+
+     <LinearLayout
+         android:orientation="horizontal"
+         android:layout_height="0dp"
+         android:layout_width="match_parent"
+         android:layout_weight="10">
+
+    <Button
+        android:id="@+id/inc"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:onClick="add"/>
+
+    <Button
+        android:id="@+id/dec"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:onClick="sub"/>
+
+    <Button
+        android:id="@+id/zero"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:onClick="zero"/>
+
+    <Button
+        android:id="@+id/Toast"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:text="Toast"
+        android:onClick="Toast"/>
+     </LinearLayout>
+</LinearLayout>
+
