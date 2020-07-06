@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">inputcontrolstest</string>
+    <string-array name="districts">
+        <item>select district</item>>
+        <item>Anatapur</item>
+        <item>Karnool</item>
+        <item>Chittoor</item>
+        <item>Kadapa</item>
+        <item>Krishna</item>
+        <item>Nellore</item>
+        <item>Guntur</item>
+    </string-array>
+    <string-array name="Anatapur_mandals">
+        <item>select mandal</item>>
+        <item>xyz1</item>
+        <item>xyz1</item>
+        <item>xyz1</item>
+        <item>xyz1</item>
+        <item>xyz1</item>
+        <item>xyz1</item>
+    </string-array>
+    <string-array name="Karnool_mandals">
+        <item>xyz2</item>
+        <item>xyz2</item>
+        <item>xyz2</item>
+        <item>xyz2</item>
+        <item>xyz2</item>
+        <item>xyz2</item>
+    </string-array>
+</resources>
