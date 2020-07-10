@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:layout_margin="10dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:focusableInTouchMode="true"
+        android:id="@+id/poster"
+        android:outlineAmbientShadowColor="#4C7E79"/>
+
+
+    -<LinearLayout
+    android:layout_height="wrap_content"
+    android:background="#8CC1BB"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="10dp">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/code_name"
+        android:textColor="#F8E6E0"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Code Name"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/version_num"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Version Number"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/api_level"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="API level"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/release_date"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Release Date"/>
+
+</LinearLayout>
+
+</LinearLayout>
